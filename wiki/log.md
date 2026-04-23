@@ -25,6 +25,12 @@ related:
 
 ---
 
+## [2026-04-23] save | wiki 운영 매뉴얼
+- 타입: session
+- 위치: `wiki/meta/wiki-운영-매뉴얼.md`
+- 출처: 첫 인제스트 직후 대화 — `.raw/` 폴더 운영 원칙, `/save` vs `ingest` 차이, 두뇌 채우기 4가지 길, 첫 2주 플랜 정리
+- 핵심: `.raw/`는 외부 불변 원본 전용. Claude 대화 내용은 `/save`로 직접 `wiki/`에 작성
+
 ## [2026-04-23] ingest | Cao 2017 — Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
 - 소스: `.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
 - 요약: [[cao-2017-openpose-paf-source]]
