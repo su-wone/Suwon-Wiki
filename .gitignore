@@ -1,0 +1,13 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.smart-connections/
+.obsidian-git-data
+.trash/
+.DS_Store
+node_modules/
+*.tmp
+*.log
+
+# 개인 자료 제외
+.raw/private/
