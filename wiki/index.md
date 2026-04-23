@@ -87,6 +87,10 @@ related:
 
 ### 도구 (Tools)
 - [[OpenPose]] — 실시간 멀티 퍼슨 키포인트 라이브러리
+- [[NestJS]] — TypeScript Node.js 서버 프레임워크
+- [[Prisma]] — TypeScript ORM
+- [[PostgreSQL]] — 관계형 DB
+- [[TypeScript]] — 정적 타입 JS
 
 ### 데이터셋 / 모델 (Datasets / Models)
 - [[COCO-Dataset]] — 객체/키포인트 벤치마크
