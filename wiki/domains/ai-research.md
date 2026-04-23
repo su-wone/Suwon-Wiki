@@ -32,9 +32,9 @@ sources:
 - `.raw/articles/` — 저자 블로그 포스트, 서브스택
 - `.raw/transcripts/` — 저자 인터뷰, 컨퍼런스 강연
 
-## 논문 (0개)
+## 논문 (1개)
 
-<!-- 첫 논문 인제스트 후 여기 나열 -->
+- [[cao-2017-openpose-paf]] (2017, CVPR) — Part Affinity Fields로 bottom-up 멀티 퍼슨 2D 포즈 추정 실시간화
 
 ## 주요 연구 테마
 
