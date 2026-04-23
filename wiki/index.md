@@ -28,6 +28,10 @@ related:
 - [[job-market]] — 취업시장 분석 허브
 - [[dev-notes]] — 개발 노트 허브
 
+## 운영 (Meta)
+
+- [[wiki-운영-매뉴얼]] — 위키 채우는 4가지 길, `.raw` 폴더 원칙, `/save` vs `ingest`
+
 ---
 
 ## 프로젝트 (Projects)
