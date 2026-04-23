@@ -11,3 +11,7 @@ node_modules/
 
 # 개인 자료 제외
 .raw/private/
+
+# OMC 런타임 상태 (계속 갱신되는 임시 파일)
+.omc/state/
+.omc/sessions/
