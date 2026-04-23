@@ -1,0 +1,34 @@
+{
+  "sources": {
+    ".raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf": {
+      "hash": "c2e0f4237a2c5055614f2ad649952af4",
+      "ingested_at": "2026-04-23",
+      "pages_created": [
+        "wiki/sources/cao-2017-openpose-paf-source.md",
+        "wiki/papers/cao-2017-openpose-paf.md",
+        "wiki/concepts/part-affinity-fields.md",
+        "wiki/concepts/bottom-up-pose-estimation.md",
+        "wiki/concepts/confidence-map.md",
+        "wiki/concepts/bipartite-matching.md",
+        "wiki/concepts/multi-person-pose-estimation.md",
+        "wiki/entities/Zhe-Cao.md",
+        "wiki/entities/Tomas-Simon.md",
+        "wiki/entities/Shih-En-Wei.md",
+        "wiki/entities/Yaser-Sheikh.md",
+        "wiki/entities/CMU-Robotics-Institute.md",
+        "wiki/entities/OpenPose.md",
+        "wiki/entities/COCO-Dataset.md",
+        "wiki/entities/MPII-Dataset.md",
+        "wiki/entities/VGG-19.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/domains/ai-research.md",
+        "wiki/papers/_index.md",
+        "wiki/sources/_index.md"
+      ]
+    }
+  }
+}
