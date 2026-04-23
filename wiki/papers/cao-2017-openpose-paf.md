@@ -70,7 +70,7 @@ sources:
 - 두 개의 브랜치로 분기:
   - **Branch 1**: confidence map $\mathbf{S}^t = \rho^t(\mathbf{F}, \mathbf{S}^{t-1}, \mathbf{L}^{t-1})$
   - **Branch 2**: PAF $\mathbf{L}^t = \phi^t(\mathbf{F}, \mathbf{S}^{t-1}, \mathbf{L}^{t-1})$
-- **T 스테이지의 반복 정제**. 각 스테이지 끝에서 두 브랜치 모두에 L2 loss + intermediate supervision으로 vanishing gradient를 완화 ([[Pose Machines]] 계승).
+- **T 스테이지의 반복 정제**. 각 스테이지 끝에서 두 브랜치 모두에 L2 loss + intermediate supervision으로 vanishing gradient를 완화 (Wei et al. *Convolutional Pose Machines*, CVPR 2016 계승 — [[Shih-En-Wei]] 참고).
 - 누락 어노테이션에 대응하기 위해 마스크 $\mathbf{W}(\mathbf{p})$를 곱해 true positive를 페널티 처리하지 않게 함.
 
 ## 파싱: Bipartite Matching → Greedy Relaxation
