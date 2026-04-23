@@ -58,7 +58,7 @@ related:
 
 ## 다음 액션
 
-1. **OpenPose를 본인 프로젝트에 적용**해보고 [[fullstack-dev]] 또는 [[learning]]에 노트
+1. **OpenPose를 본인 프로젝트에 적용**해보고 [[fullstack-dev]] 또는 [[dev-notes]]에 노트
 2. **비교 페이지 후보**: PAF vs Associative Embedding, OpenPose vs HRNet, bottom-up vs top-down
 3. **다른 소스**: 두 번째 인제스트로 비교 자료 만들기
 
