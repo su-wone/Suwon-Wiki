@@ -93,7 +93,7 @@ related:
 
 ## 소스 (Sources)
 
-<!-- 인제스트된 원시 소스 요약 -->
+- [[cao-2017-openpose-paf-source]] — `.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
 
 ---
 
