@@ -42,7 +42,14 @@ related:
 <!-- VSCode, Git, Docker -->
 
 ### 라이브러리 / 프레임워크
-<!-- React, FastAPI, PyTorch -->
+- [[NestJS]] — TypeScript Node.js 서버 프레임워크 (server-board)
+- [[Prisma]] — TypeScript ORM (server-board)
+
+### 언어
+- [[TypeScript]] — server-board 메인 언어
+
+### 데이터베이스
+- [[PostgreSQL]] — server-board 저장소 DB
 
 ### 서비스 / 플랫폼
 <!-- AWS, Vercel, Supabase -->
