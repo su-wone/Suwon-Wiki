@@ -31,9 +31,9 @@ sources:
 - `.raw/code/` — 코드 스니펫, README 복사본, 아키텍처 다이어그램
 - `.raw/articles/` — 기술 블로그 포스트 (관련 주제)
 
-## 프로젝트 (0개)
+## 프로젝트 (1개)
 
-<!-- 첫 프로젝트 인제스트 후 여기 나열 -->
+- [[server-board]] — Jira 스타일 보드 백엔드 ([[NestJS]] + [[Prisma]] + [[PostgreSQL]]), active
 
 ## 기술 결정 (0개)
 
