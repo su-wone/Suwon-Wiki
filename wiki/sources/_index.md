@@ -23,7 +23,7 @@ related:
 
 ## 논문 (Papers)
 
-<!-- .raw/papers/ 출처 -->
+- [[cao-2017-openpose-paf-source]] — Cao et al., CVPR 2017 — Part Affinity Fields 기반 멀티 퍼슨 2D 포즈 추정
 
 ## 트랜스크립트 (Transcripts)
 
