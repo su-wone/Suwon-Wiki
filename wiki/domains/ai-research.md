@@ -38,7 +38,7 @@ sources:
 
 ## 주요 연구 테마
 
-<!-- 논문이 쌓이면서 자연스럽게 발현됨. 예: "RAG", "에이전트 루프", "정렬" -->
+- **컴퓨터 비전 / 포즈 추정**: [[multi-person-pose-estimation]], [[bottom-up-pose-estimation]], [[part-affinity-fields]]
 
 ## 핵심 저자
 
