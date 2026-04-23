@@ -62,7 +62,11 @@ related:
 
 ## 개념 (Concepts)
 
-<!-- 모든 도메인에 걸친 공유 개념 -->
+- [[part-affinity-fields]] — 림을 방향 있는 2D 벡터 필드로 표현 (PAF)
+- [[bottom-up-pose-estimation]] — 파트 먼저 검출, 그 다음 연결
+- [[confidence-map]] — 키포인트 위치를 가우시안 히트맵으로 예측
+- [[bipartite-matching]] — 파트 후보 쌍 최적 할당
+- [[multi-person-pose-estimation]] — 다중 인원 2D 포즈 문제 정의
 
 ---
 
