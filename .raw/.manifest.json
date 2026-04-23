@@ -1,8 +1,10 @@
 {
   "sources": {
-    ".raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf": {
+    ".raw/E-research/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf": {
       "hash": "c2e0f4237a2c5055614f2ad649952af4",
       "ingested_at": "2026-04-23",
+      "previous_path": ".raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf",
+      "moved_at": "2026-04-23",
       "pages_created": [
         "wiki/sources/cao-2017-openpose-paf-source.md",
         "wiki/papers/cao-2017-openpose-paf.md",
