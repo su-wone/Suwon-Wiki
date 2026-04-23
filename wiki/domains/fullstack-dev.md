@@ -28,8 +28,8 @@ sources:
 
 ## 이 도메인의 소스 위치
 
-- `.raw/code/` — 코드 스니펫, README 복사본, 아키텍처 다이어그램
-- `.raw/articles/` — 기술 블로그 포스트 (관련 주제)
+- `.raw/B-github/` — 저장소 스냅샷 (README, git log, tree, package.json)
+- `.raw/C-business/` — 관련 회의록, 비즈니스 요구사항 (필요 시)
 
 ## 프로젝트 (1개)
 
