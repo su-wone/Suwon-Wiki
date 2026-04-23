@@ -60,9 +60,10 @@ related:
 
 ## 다음 액션
 
-1. **OpenPose를 본인 프로젝트에 적용**해보고 [[fullstack-dev]] 또는 [[dev-notes]]에 노트
-2. **비교 페이지 후보**: PAF vs Associative Embedding, OpenPose vs HRNet, bottom-up vs top-down
-3. **다른 소스**: 두 번째 인제스트로 비교 자료 만들기
+1. **새 자료를 `.raw/<모드>/`에 던지기** — 의사결정 표는 [[wiki-운영-매뉴얼]] 참고
+2. **OpenPose를 본인 프로젝트에 적용**해보고 [[fullstack-dev]] 또는 [[dev-notes]]에 노트
+3. **비교 페이지 후보**: PAF vs Associative Embedding, OpenPose vs HRNet, bottom-up vs top-down
+4. **다른 소스**: 두 번째 인제스트로 비교 자료 만들기
 
 ## 열린 질문
 - 작은 스케일에서 bottom-up이 약한 문제(AP^M 부진)를 후속 연구가 어떻게 풀었는지
