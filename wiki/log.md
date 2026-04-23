@@ -25,6 +25,19 @@ related:
 
 ---
 
+## [2026-04-23] ingest | Cao 2017 — Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
+- 소스: `.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
+- 요약: [[cao-2017-openpose-paf-source]]
+- 논문 페이지: [[cao-2017-openpose-paf]]
+- 페이지 생성 (16개):
+  - 소스: [[cao-2017-openpose-paf-source]]
+  - 논문: [[cao-2017-openpose-paf]]
+  - 개념: [[part-affinity-fields]], [[bottom-up-pose-estimation]], [[confidence-map]], [[bipartite-matching]], [[multi-person-pose-estimation]]
+  - 사람: [[Zhe-Cao]], [[Tomas-Simon]], [[Shih-En-Wei]], [[Yaser-Sheikh]]
+  - 조직/도구/데이터셋/모델: [[CMU-Robotics-Institute]], [[OpenPose]], [[COCO-Dataset]], [[MPII-Dataset]], [[VGG-19]]
+- 페이지 갱신 (6개): [[index]], [[hot]], [[ai-research]], [[papers/_index]], [[sources/_index]], [[log]]
+- 핵심 인사이트: 림을 "방향이 있는 2D 벡터 필드(PAF)"로 표현하면, bottom-up 접근이면서도 사람 수에 무관한 실시간 성능 + top-down 수준 정확도 동시 달성. COCO 2016 keypoints 챌린지 1위.
+
 ## [2026-04-23] setup | 볼트 초기화
 - 위치: `/Users/admin/wiki/`
 - 모드: B + E + C + F 결합 (풀스택 + AI 리서치 + 취업시장 + 개발 노트)
