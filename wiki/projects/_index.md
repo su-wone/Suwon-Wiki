@@ -20,7 +20,7 @@ related:
 
 ## 진행 중 (Active)
 
-<!-- 현재 개발 중 -->
+- [[server-board]] — Jira 스타일 보드 백엔드 (NestJS 11 + Prisma 7 + PostgreSQL). `feat/frontend-integration` 브랜치 진행 중.
 
 ## 유지 (Maintenance)
 
