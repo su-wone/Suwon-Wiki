@@ -41,17 +41,17 @@ Jira 스타일 보드 서비스의 백엔드. Sprints / Workflows / Cards / Epic
 
 ## 스택
 
-| 레이어 | 기술 | 버전 |
-|---|---|---|
-| 런타임 | Node.js (ESM) | — |
-| 프레임워크 | [[NestJS]] | ^11.0.1 |
-| ORM | [[Prisma]] | ^7.5.0 |
-| DB | [[PostgreSQL]] | — (pg ^8.20) |
-| 언어 | [[TypeScript]] | ^5.7.3 |
-| 문서 | `@nestjs/swagger` | ^11.3.0 |
-| 스토리지 | `@aws-sdk/client-s3` | ^3.1019 |
-| 검증 | `class-validator`, `class-transformer` | — |
-| 테스트 | Jest | ^30 |
+| 레이어   | 기술                                     | 버전           |
+| ----- | -------------------------------------- | ------------ |
+| 런타임   | Node.js (ESM)                          | —            |
+| 프레임워크 | [[NestJS]]                             | ^11.0.1      |
+| ORM   | [[Prisma]]                             | ^7.5.0       |
+| DB    | [[PostgreSQL]]                         | — (pg ^8.20) |
+| 언어    | [[TypeScript]]                         | ^5.7.3       |
+| 문서    | `@nestjs/swagger`                      | ^11.3.0      |
+| 스토리지  | `@aws-sdk/client-s3`                   | ^3.1019      |
+| 검증    | `class-validator`, `class-transformer` | —            |
+| 테스트   | Jest                                   | ^30          |
 
 ## 구조
 
