@@ -41,7 +41,9 @@ sources:
 
 ## 자주 사용하는 스택
 
-<!-- 사용 중인 주요 기술들이 자연스럽게 누적됨 -->
+- **백엔드**: [[NestJS]], [[Prisma]], [[PostgreSQL]]
+- **언어**: [[TypeScript]] (ESM)
+- **테스트**: Jest
 
 ## 열린 질문
 
