@@ -38,7 +38,7 @@ related:
 
 ## 논문 (Papers)
 
-<!-- AI 논문. 첫 논문 인제스트 후 여기에 나열 -->
+- [[cao-2017-openpose-paf]] — Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (Cao et al., CVPR 2017)
 
 ---
 
