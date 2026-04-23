@@ -35,19 +35,32 @@ sources: []
 > [!key-insight] 원칙
 > `.raw/`는 **"외부에서 가져온 불변 원본"** 을 둘 때만 쓴다. Claude 대화나 본인 머릿속에서 정리한 내용은 `.raw`를 거치지 않고 `/save`로 바로 `wiki/`에 쓴다.
 
-### 자료별 저장 위치
+### 자료별 저장 위치 — 6모드 단순 룰 (v2, 2026-04-23 재구성)
 
-| 자료 종류 | `.raw/` 폴더 | 그 다음 |
-|---|---|---|
-| AI/ML 논문 PDF | `.raw/papers/` | `ingest` → `wiki/papers/` 요약 |
-| 기사, 블로그 포스트 | `.raw/articles/` | `ingest` → `wiki/sources/` |
-| 강의/회의 트랜스크립트 | `.raw/transcripts/` | `ingest` → 개념/엔티티 추출 |
-| 채용 공고, JD | `.raw/jobs/` | `ingest` → `wiki/companies/` |
-| 코드 스니펫, 문서 | `.raw/code/` | `ingest` 또는 `wiki/learning/`로 직접 |
-| 화면 캡처, 다이어그램 | `.raw/screenshots/` | 비전 인제스트 가능 |
-| **AI 대화 로그** | `.raw/conversations/` (필요 시 신설) | `ingest` 또는 `/save` |
-| 본인 학습 메모 | (`.raw` 거치지 않음) | 바로 `wiki/learning/`에 작성 |
-| 본인 결정/ADR | (`.raw` 거치지 않음) | 바로 `wiki/decisions/`에 작성 |
+> "이 자료는 어느 모드인가?" 한 번만 묻고 해당 모드 폴더에 던지면 끝.
+
+| 모드 | `.raw/` 폴더 | 받는 자료 | 적용 템플릿 | wiki/ 결과 |
+|---|---|---|---|---|
+| **A — 웹사이트** | `.raw/A-website/` | 사이트 크롤, 웹페이지 dump, GSC, 분석 데이터 | `A-website.md` | `wiki/pages/`, `wiki/audits/` 등 |
+| **B — GitHub/저장소** | `.raw/B-github/` | 본인 코드, README, git log, 저장소 dump | `B-module.md` | `wiki/projects/`, `wiki/decisions/` |
+| **C — 비즈니스/프로젝트** | `.raw/C-business/` | 회사 정보, JD, 회의록, Slack export | `C-decision.md` | `wiki/companies/`, `wiki/decisions/` |
+| **D — 개인/두 번째 두뇌** | `.raw/D-personal/` | 일기, AI 대화 로그, 음성 트랜스크립트, 개인 메모 | `D-personal.md` | `wiki/learning/`, `wiki/questions/` |
+| **E — 리서치** | `.raw/E-research/` | 논문 PDF, 웹 리서치 클립, 외부 자료 | `E-paper.md` | `wiki/papers/`, `wiki/concepts/` |
+| **F — 책/강의** | `.raw/F-books/` | 책 노트, 강의 자료, 챕터 하이라이트 | `F-book.md` | `wiki/learning/`, `wiki/concepts/` |
+
+### `.raw/`를 거치지 않는 것
+
+- Claude 채팅에서 즉석으로 정리한 메모 → `/save` (대화 자체가 원본)
+- 본인이 직접 쓴 학습 노트 → `wiki/learning/`에 직접
+- 위키 운영 결정 → `wiki/meta/` 또는 `wiki/decisions/`에 직접
+
+### 모드를 못 정하겠을 때
+
+- 외부에서 가져왔고 시간순/주제순으로 학습할 자료 → **F (책/강의)** 또는 **E (리서치)**
+- 본인 일기/생각/AI 대화 → **D (개인)**
+- 회사/프로젝트 진행 자료 → **C (비즈니스)**
+- 코드/저장소 → **B (GitHub)**
+- 사이트/웹페이지 → **A (웹사이트)**
 
 ### `.raw/`에 두지 말아야 할 것
 - Claude 채팅에서 즉석으로 정리한 메모 → `/save`
