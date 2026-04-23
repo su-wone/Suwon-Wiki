@@ -18,7 +18,7 @@ related:
 내비게이션: [[index]] | [[log]] | [[overview]]
 
 ## 마지막 업데이트
-2026-04-23: 첫 논문 인제스트 완료 — [[cao-2017-openpose-paf]] (OpenPose 원조 논문). 16개 신규 페이지 생성.
+2026-04-23: [[wiki-운영-매뉴얼]] 작성 (운영 기준선 확보). 첫 논문 인제스트 완료 — [[cao-2017-openpose-paf]] (OpenPose 원조 논문). 17개 위키 페이지.
 
 ## 볼트 상태
 - **위치**: `/Users/admin/wiki/`
