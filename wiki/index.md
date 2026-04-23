@@ -72,7 +72,22 @@ related:
 
 ## 엔티티 (Entities)
 
-<!-- 사람, 조직, 도구, 라이브러리 -->
+### 사람 (People)
+- [[Zhe-Cao]] — OpenPose/PAF 1저자
+- [[Tomas-Simon]] — OpenPose/PAF 공저자
+- [[Shih-En-Wei]] — OpenPose/PAF 공저자, CPM 1저자
+- [[Yaser-Sheikh]] — CMU 교수, 포즈/휴먼 캡처 그룹 리더
+
+### 조직 (Organizations)
+- [[CMU-Robotics-Institute]] — OpenPose 본거지
+
+### 도구 (Tools)
+- [[OpenPose]] — 실시간 멀티 퍼슨 키포인트 라이브러리
+
+### 데이터셋 / 모델 (Datasets / Models)
+- [[COCO-Dataset]] — 객체/키포인트 벤치마크
+- [[MPII-Dataset]] — 인간 포즈 벤치마크
+- [[VGG-19]] — 백본 CNN
 
 ---
 
