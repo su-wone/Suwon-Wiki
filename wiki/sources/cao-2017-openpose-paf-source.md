@@ -55,4 +55,4 @@ Zhe Cao 외 3인(CMU Robotics Institute)이 2017 CVPR(arXiv v2, 2017-04-14)에 �
 
 ## 원본 파일
 
-`.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
+`.raw/E-research/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
