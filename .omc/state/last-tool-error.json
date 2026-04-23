@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/admin/wiki/_templates\"}",
+  "error": "EISDIR: illegal operation on a directory, read '/Users/admin/wiki/_templates'",
+  "timestamp": "2026-04-23T06:40:31.405Z",
+  "retry_count": 1
+}

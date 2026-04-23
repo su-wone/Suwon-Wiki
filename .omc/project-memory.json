@@ -1,0 +1,296 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776925710523,
+  "projectRoot": "/Users/admin/wiki",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "_attachments": {
+      "path": "_attachments",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776925710511,
+      "keyFiles": []
+    },
+    "_templates": {
+      "path": "_templates",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1776925710514,
+      "keyFiles": [
+        "comparison.md",
+        "concept.md",
+        "entity.md",
+        "question.md",
+        "source.md"
+      ]
+    },
+    "wiki": {
+      "path": "wiki",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1776925710515,
+      "keyFiles": [
+        "hot.md",
+        "index.md",
+        "log.md",
+        "overview.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "wiki/index.md",
+      "accessCount": 9,
+      "lastAccessed": 1776927582140,
+      "type": "file"
+    },
+    {
+      "path": "wiki/hot.md",
+      "accessCount": 9,
+      "lastAccessed": 1776928507540,
+      "type": "file"
+    },
+    {
+      "path": "wiki/log.md",
+      "accessCount": 6,
+      "lastAccessed": 1776928505138,
+      "type": "file"
+    },
+    {
+      "path": "wiki/domains/ai-research.md",
+      "accessCount": 5,
+      "lastAccessed": 1776926706148,
+      "type": "file"
+    },
+    {
+      "path": "wiki/meta/wiki-운영-매뉴얼.md",
+      "accessCount": 5,
+      "lastAccessed": 1776928500031,
+      "type": "file"
+    },
+    {
+      "path": "wiki/papers/_index.md",
+      "accessCount": 3,
+      "lastAccessed": 1776926696037,
+      "type": "file"
+    },
+    {
+      "path": "wiki/sources/cao-2017-openpose-paf-source.md",
+      "accessCount": 3,
+      "lastAccessed": 1776927973917,
+      "type": "file"
+    },
+    {
+      "path": "wiki/papers/cao-2017-openpose-paf.md",
+      "accessCount": 3,
+      "lastAccessed": 1776927974037,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 3,
+      "lastAccessed": 1776928487585,
+      "type": "file"
+    },
+    {
+      "path": "_templates/concept.md",
+      "accessCount": 2,
+      "lastAccessed": 1776926453845,
+      "type": "file"
+    },
+    {
+      "path": "_templates/entity.md",
+      "accessCount": 2,
+      "lastAccessed": 1776926454212,
+      "type": "file"
+    },
+    {
+      "path": "_templates/source.md",
+      "accessCount": 2,
+      "lastAccessed": 1776926454529,
+      "type": "file"
+    },
+    {
+      "path": "wiki/sources/_index.md",
+      "accessCount": 2,
+      "lastAccessed": 1776926698123,
+      "type": "file"
+    },
+    {
+      "path": ".raw/.manifest.json",
+      "accessCount": 2,
+      "lastAccessed": 1776927970984,
+      "type": "file"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "accessCount": 1,
+      "lastAccessed": 1776925874739,
+      "type": "file"
+    },
+    {
+      "path": "wiki/overview.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926172514,
+      "type": "file"
+    },
+    {
+      "path": ".raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf",
+      "accessCount": 1,
+      "lastAccessed": 1776926430663,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/part-affinity-fields.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926567726,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/bottom-up-pose-estimation.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926580016,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/confidence-map.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926595510,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/bipartite-matching.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926609925,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/multi-person-pose-estimation.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926623467,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/Zhe-Cao.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926631621,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/Tomas-Simon.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926636392,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/Shih-En-Wei.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926642694,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/Yaser-Sheikh.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926649241,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/CMU-Robotics-Institute.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926655489,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/OpenPose.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926664925,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/COCO-Dataset.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926672048,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/MPII-Dataset.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926679439,
+      "type": "file"
+    },
+    {
+      "path": "wiki/entities/VGG-19.md",
+      "accessCount": 1,
+      "lastAccessed": 1776926687039,
+      "type": "file"
+    },
+    {
+      "path": "WIKI.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927729407,
+      "type": "file"
+    },
+    {
+      "path": "_templates/A-website.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927892102,
+      "type": "file"
+    },
+    {
+      "path": "_templates/B-module.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927896687,
+      "type": "file"
+    },
+    {
+      "path": "_templates/C-decision.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927901846,
+      "type": "file"
+    },
+    {
+      "path": "_templates/D-personal.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927912046,
+      "type": "file"
+    },
+    {
+      "path": "_templates/E-paper.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927913462,
+      "type": "file"
+    },
+    {
+      "path": "_templates/F-book.md",
+      "accessCount": 1,
+      "lastAccessed": 1776927917685,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
