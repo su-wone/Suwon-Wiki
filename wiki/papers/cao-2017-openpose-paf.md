@@ -120,4 +120,4 @@ sources:
 ## 소스
 
 - [[cao-2017-openpose-paf-source]] (원본 요약)
-- 원본 PDF: `.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
+- 원본 PDF: `.raw/E-research/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
