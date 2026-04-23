@@ -27,7 +27,8 @@ AI/ML 논문 요약 페이지.
 <!-- -->
 
 ### 이전
-<!-- -->
+
+- 2017 — [[cao-2017-openpose-paf]] — Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (Cao et al., CVPR)
 
 ## 주제별
 
