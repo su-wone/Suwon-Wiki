@@ -164,3 +164,4 @@ sources: []
 
 - 2026-04-23 (v1): 첫 세션에서 작성. `/save` vs `ingest` 차이 정립. `.raw` 폴더 운영 원칙 정립.
 - 2026-04-23 (v2): `.raw/` 6모드 폴더로 재구성 (A-website / B-github / C-business / D-personal / E-research / F-books). 모드별 템플릿 6개 추가. 자료 종류별 → 모드별로 의사결정 단순화.
+- 2026-04-23 (v3): wiki/ 게으른 확장 규칙 추가 (섹션 6). `.raw/`는 6모드 다 받되 `wiki/`는 첫 사용 시 자동 신설.
