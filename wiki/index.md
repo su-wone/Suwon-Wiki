@@ -36,7 +36,7 @@ related:
 
 ## 프로젝트 (Projects)
 
-<!-- 본인의 풀스택 프로젝트. 첫 프로젝트 인제스트 후 여기에 나열 -->
+- [[server-board]] — Jira 스타일 보드 백엔드 (NestJS 11 + Prisma 7 + PostgreSQL), active
 
 ---
 
