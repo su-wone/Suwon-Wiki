@@ -25,6 +25,16 @@ related:
 
 ---
 
+## [2026-04-23] redesign | .raw 6모드 폴더 + 모드 템플릿 6개
+- 동기: 자료별 폴더 분류(articles/papers/jobs/...)가 결정 부하를 줘서, WIKI.md의 6모드 이름으로 단순화
+- `.raw/` 변경:
+  - 신설: A-website/, B-github/, C-business/, D-personal/, E-research/, F-books/
+  - 폐지: articles/, code/, jobs/, papers/, screenshots/, transcripts/
+  - 이동: `.raw/papers/Realtime ... PAF.pdf` → `.raw/E-research/`
+- `_templates/` 신설 (6개): A-website.md, B-module.md, C-decision.md, D-personal.md, E-paper.md, F-book.md
+- `_templates/` 유지 (5개, cross-cutting): concept.md, entity.md, source.md, comparison.md, question.md
+- 갱신: CLAUDE.md (구조 + 의사결정 룰), [[wiki-운영-매뉴얼]] (v2: 6모드 표), .raw/.manifest.json (PDF 새 경로), [[cao-2017-openpose-paf-source]], [[cao-2017-openpose-paf]] (raw 경로 갱신)
+
 ## [2026-04-23] save | wiki 운영 매뉴얼
 - 타입: session
 - 위치: `wiki/meta/wiki-운영-매뉴얼.md`
