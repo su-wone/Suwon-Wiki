@@ -42,7 +42,8 @@ sources:
 
 ## 핵심 저자
 
-<!-- 자주 참조되는 연구자들은 wiki/entities/에 -->
+- [[Yaser-Sheikh]] (CMU → Meta Reality Labs) — 포즈 / 휴먼 캡처 그룹 리더
+- [[Zhe-Cao]], [[Tomas-Simon]], [[Shih-En-Wei]] — OpenPose / PAF 공저자
 
 ## 방법론 비교
 
