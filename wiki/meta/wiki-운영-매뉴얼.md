@@ -111,7 +111,40 @@ sources: []
 3. **본인 프로젝트** 중 하나를 `wiki/projects/`에 시드 노트로 작성. 풀스택 도메인 첫 진입점.
 4. **취업시장**: 관심 회사 JD 1개 `.raw/jobs/`에 넣고 인제스트. 4번째 도메인 활성화.
 
-## 6. 정기 유지보수
+## 6. wiki/ 게으른 확장 (Lazy)
+
+`.raw/`는 6모드 다 받지만 `wiki/`는 **실제로 쓸 때만** 폴더가 늘어난다. 빈 폴더로 결정 부하 늘리지 않기.
+
+### 현재 wiki/ (활성 4모드 = B+E+C+D 위주)
+- `papers/` `concepts/` `entities/` `sources/` (E)
+- `projects/` `decisions/` (B)
+- `companies/` (C)
+- `learning/` (D)
+- `comparisons/` `questions/` `meta/` `domains/` (전 모드 공유)
+
+### 모드 첫 사용 시 자동 추가될 폴더
+
+| 모드 | 첫 자료 들어오면 신설 |
+|---|---|
+| A 웹사이트 | `pages/`, `audits/`, `keywords/` |
+| B GitHub (심화) | `components/`, `dependencies/`, `flows/` |
+| C 비즈니스 (심화) | `deliverables/`, `intel/`, `comms/`, `stakeholders/` |
+| D 개인 (심화) | `goals/`, `people/`, `areas/`, `resources/` |
+| E 리서치 (심화) | `thesis/`, `gaps/` |
+| F 책/강의 | `themes/`, `synthesis/`, `timeline/`, `characters/` |
+
+### 신설 절차
+
+1. 인제스트 시작 시 해당 페이지 타입의 폴더 존재 여부 확인
+2. 없으면 폴더 + `_index.md` 시드 생성
+3. `wiki/log.md`에 `## [날짜] structure | wiki/<폴더>/ 신설` prepend
+4. 정상 인제스트 진행
+
+### 빈 폴더는 안 만든다
+
+데이터가 폴더를 요구할 때만 생성. 미리 만들면 다시 "어디에 넣지?" 결정 부하가 돌아옴.
+
+## 7. 정기 유지보수
 
 | 주기 | 작업 | 명령 |
 |---|---|---|
