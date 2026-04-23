@@ -1,0 +1,8 @@
+total 40
+drwxr-xr-x@  7 admin  staff   224 Apr 22 14:00 .
+drwxr-xr-x@ 26 admin  staff   832 Apr 23 13:12 ..
+drwxr-xr-x@  9 admin  staff   288 Apr 22 13:52 migrations
+-rw-r--r--@  1 admin  staff   217 Mar 25 18:51 prisma.module.ts
+-rw-r--r--@  1 admin  staff   565 Apr 21 14:28 prisma.service.ts
+-rw-r--r--@  1 admin  staff  3096 Apr 22 13:52 schema.prisma
+-rw-r--r--@  1 admin  staff  6347 Apr 22 14:00 seed.ts

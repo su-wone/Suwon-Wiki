@@ -1,0 +1,46 @@
+fe1c627 docs(swagger): flesh out response schemas and DTO properties for board APIs
+9504599 chore(seed): drop legacy workflow rows whose titles aren't in the new list
+84d1c46 feat(cards): accept optional epicId on create and drop redundant type fallback
+6adbb98 feat(epics): add Epic model, GET /epics, and wire into Cards
+c68248f feat(cards): add GET /cards/:id detail endpoint
+b16b043 feat(cards): expand GET /cards response with relations
+b2f07cb feat(cards): use VEASLY- key prefix
+388e51f feat(seed): align workflows with 7-stage board and upsert idempotently
+611c91b chore: gitignore STUDY_GUIDE.md local notes
+6cb2f4b Merge pull request #5 from su-wone/feature/VEASLY-430-sprint-card-apis
+43d36f8 VEASLY-430 [BE] tsconfig baseUrl 제거
+d60277c VEASLY-430 [BE] Sprints/Workflows 응답 필드 select 명시
+99754b9 VEASLY-430 [BE] Swagger API 문서화 및 CORS 화이트리스트 적용
+527c0b9 VEASLY-430 [BE] Cards 조회/생성 개선 (key 동적 생성, 필터 DTO 분리)
+545c8e2 VEASLY-430 [BE] Cards key 컬럼 제거 마이그레이션
+c590831 VEASLY-430 [BE] Sprints 모델에 goal 필드 추가
+0ac974e VEASLY-430 [BE] POST /cards 카드 생성 API
+794cf1d VEASLY-430 [BE] 포트 설정 및 시드/검증 인프라 추가
+2ca7a25 VEASLY-430 [BE] Memo/Upload 모듈 제거 및 CardType 확장
+d6df10d VEASLY-430 [BE] Schema 개선: enum 타입 전환, 인덱스 및 onDelete 정책 추가
+734ef16 VEASLY-430 [BE] Cards 조회 API 추가
+91ff479 VEASLY-430 [BE] Sprints 조회 API 추가
+87bd865 VEASLY-430 [BE] Workflows 조회 API 추가
+ed73d4b VEASLY-430 [BE] Memos/MemoImages 복수형 네이밍 일치
+4838ff6 Merge pull request #4 from su-wone/feature/VEASLY-430-dashboard-schema
+4e3de1f chore: .vscode 디렉토리 전체 gitignore 처리
+5360ef4 VEASLY-430 [BE] Workflow 모델명을 Workflows로 변경 (네이밍 일관성)
+7952a3b chore: .claude, .omc 디렉토리 gitignore 추가
+4ca8b53 Merge pull request #3 from su-wone/feature/VEASLY-430-dashboard-schema
+5b3d4d7 VEASLY-430 [BE] Dashboard 스키마 추가 (Users, Sprints, Workflow, Cards, Labels)
+15b21f1 VEASLY-309 [BE] S3 이미지 업로드 기능 추가 (UploadService, Controller 연동)
+d2bd1df VEASLY-309 [BE] MemoImage CRUD 로직 추가 (Service, Controller)
+5b38b4f VEASLY-309 [BE] MemoImage 모델 추가
+f1999f8 Merge pull request #2 from su-wone/refactor/remove-default-nest-files
+ea6daa9 사용하지 않는 NestJS 기본 생성 파일 제거
+bb2480a Merge pull request #1 from su-wone/chore/VEASLY-387-nest-prisma-postgreSQL-개발세팅
+428c8db CORS 허용 및 dotenv 설정 추가
+c40436b Memo CRUD API 생성 (module, service, controller)
+e1884f5 module 만들기
+11e31f1 AppModule에 PrismaModule 등록
+599a0fd PrismaService, PrismaModule 생성
+40769c7 마이그레이션 실행
+9156786 Prisma 스키마 작성
+ee5f47a Prisma 설치 및 초기화
+6cb048f package.json에 ESM 설정 추가
+700258e nestJS 프로젝트 설정
