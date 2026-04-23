@@ -18,7 +18,7 @@ tags:
   - computer-vision
   - pose-estimation
 status: developing
-raw_file: ".raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf"
+raw_file: ".raw/E-research/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf"
 related:
   - "[[sources/_index]]"
   - "[[cao-2017-openpose-paf]]"
