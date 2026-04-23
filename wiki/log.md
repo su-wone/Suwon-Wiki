@@ -25,6 +25,14 @@ related:
 
 ---
 
+## [2026-04-23] ingest | server-board (B-github 모드 첫 인제스트)
+- Source: `.raw/B-github/server-board/` (README, package.json, git-log, remotes, branches, tree)
+- Origin: https://github.com/su-wone/Board-Server.git (branch: feat/frontend-integration)
+- Created: [[server-board]] (project hub), [[server-board-repo]] (source), [[NestJS]] [[Prisma]] [[PostgreSQL]] [[TypeScript]] (entities)
+- Updated: [[index]], [[projects/_index]], [[hot]]
+- Stack: NestJS 11 + Prisma 7 + PostgreSQL, ESM, TypeScript 5.7
+- 도메인: Users / Sprints / Workflows / Cards / Epics / Labels (VEASLY 이슈 트래커)
+
 ## [2026-04-23] save | 위키 능동적 사용법
 - Type: synthesis (question)
 - Location: wiki/questions/위키-능동-사용법.md
