@@ -9,6 +9,7 @@ tags:
   - tool
   - orm
   - database
+status: seed
 related:
   - "[[PostgreSQL]]"
   - "[[TypeScript]]"

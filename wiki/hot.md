@@ -2,7 +2,7 @@
 type: meta
 title: "Hot Cache"
 created: 2026-04-23
-updated: 2026-04-23T17:00:00
+updated: 2026-04-26
 tags:
   - meta
   - hot-cache
@@ -18,6 +18,7 @@ related:
 내비게이션: [[index]] | [[log]] | [[overview]]
 
 ## 마지막 업데이트
+2026-04-26: **[[esm-import-rule]]** 인제스트 — D-personal 모드 첫 사용. Notion에서 export한 ESM 학습 노트. [[esm-modules]] [[commonjs]] 개념 + [[Node.js]] 엔티티 생성. [[server-board]]와 직결.
 2026-04-23: **[[server-board]]** 인제스트 — B-github 모드 첫 사용. NestJS 11 + Prisma 7 + PostgreSQL 백엔드. [[NestJS]] [[Prisma]] [[PostgreSQL]] [[TypeScript]] 엔티티 생성.
 2026-04-23: **[[위키-능동-사용법]]** 저장 — `/save` 첫 사용. 입력→트리거→회수 3박자 + 4가지 루틴 정리.
 2026-04-23: **wiki/ 게으른 확장 규칙** 도입 ([[wiki-운영-매뉴얼]] v3). 모드 첫 사용 시 wiki/ 폴더 자동 신설.
@@ -26,13 +27,20 @@ related:
 
 ## 볼트 상태
 - **위치**: `/Users/admin/wiki/`
-- **모드**: B + E + C + F 결합 (B-github 활성화됨)
-- **도메인**: 풀스택 개발 ← **방금 첫 프로젝트 추가**, AI 논문 리서치, 취업시장 분석, 개발 노트
-- **인제스트된 소스**: 2 (논문 1 + 저장소 1)
-- **위키 페이지**: 25 + 4 도메인 허브 + 시드
+- **모드**: B + E + C + F 결합 (B-github + D-personal 활성화됨)
+- **도메인**: 풀스택 개발, AI 논문 리서치, 취업시장 분석, 개발 노트 ← **방금 첫 학습 노트 추가**
+- **인제스트된 소스**: 3 (논문 1 + 저장소 1 + 학습노트 1)
+- **위키 페이지**: 30 + 4 도메인 허브 + 시드
 - **운영 매뉴얼**: [[wiki-운영-매뉴얼]] (필독)
 
 ## 최근 인제스트
+
+### [[esm-import-rule]] (학습 노트, 2026-04-26)
+- **한 줄**: ESM에서 import 경로에 `.js`를 쓰는 이유 — "실행될 때 존재할 파일을 적어라"
+- **모드**: D-personal (첫 사용) — Notion 학습 노트를 PDF로 export
+- **개념**: [[esm-modules]], [[commonjs]] / **엔티티**: [[Node.js]]
+- **적용 대상**: [[server-board]] (NestJS 11 + TS 5.7 ESM 모드)
+- **원본**: `.raw/D-personal/notion-study/ESM.pdf` (2026-04-21 작성)
 
 ### [[server-board]] (프로젝트, 2026-04-23)
 - **한 줄**: Jira 스타일 보드 백엔드 (VEASLY- 이슈 prefix)
@@ -62,7 +70,8 @@ related:
 - 아직 인제스트 없음
 
 ### 4. 개발 노트 ([[dev-notes]])
-- 아직 인제스트 없음
+- 학습 노트 1개: [[esm-import-rule]]
+- 다음 후보: `tsconfig` 모듈 옵션 정리, ts-node/tsx 로더 비교, Notion 추가 노트 인제스트
 
 ## 다음 액션
 
@@ -70,6 +79,7 @@ related:
 2. **ADR 후보 (decisions)**: `key` 컬럼 제거 결정, `baseUrl` 제거, Memo/Upload 제거 — `/save decision [이름]`로 기록 가능
 3. **모듈별 분해 (선택)**: cards / sprints / workflows / epics 각각 `wiki/components/` (B 확장) 페이지로 파면 상세 추적
 4. **크로스 연결 기회**: 포즈 추정 논문 개념이 서비스에 쓰일 여지 있는지 ([[fullstack-dev]] ↔ [[ai-research]])
+5. **ESM 후속 학습 (D)**: `tsconfig` `module`/`moduleResolution`, `tsconfig-paths` + ESM, `tsx`/`ts-node` ESM 로더, Node `--experimental-strip-types`
 
 ## 열린 질문
 - server-board 프론트엔드 통합이 끝나면 어떤 배포 전략을 쓸지 (AWS/Vercel/자체)

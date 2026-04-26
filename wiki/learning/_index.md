@@ -2,7 +2,7 @@
 type: meta
 title: "학습 인덱스"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - meta
   - index
@@ -20,7 +20,7 @@ related:
 
 ## 진행 중 (In Progress)
 
-<!-- 현재 학습 중인 것 -->
+- [[esm-import-rule]] — ESM에서 import 경로에 `.js` 쓰는 이유 ([[server-board]] 적용 중)
 
 ## 완료 (Completed)
 
@@ -36,7 +36,7 @@ related:
 <!-- React, TypeScript, 상태 관리 등 -->
 
 ### 백엔드
-<!-- Node.js, Python, 데이터베이스 등 -->
+- [[esm-import-rule]] — Node.js ESM 모드 + TypeScript 컴파일 모델
 
 ### 인프라 / 데브옵스
 <!-- Docker, K8s, CI/CD 등 -->

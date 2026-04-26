@@ -2,7 +2,7 @@
 type: meta
 title: "위키 인덱스"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - meta
   - index
@@ -15,7 +15,7 @@ related:
 
 # 위키 인덱스
 
-마지막 업데이트: 2026-04-23 | 전체 페이지: 25 | 인제스트된 소스: 2
+마지막 업데이트: 2026-04-26 | 전체 페이지: 30 | 인제스트된 소스: 3
 
 내비게이션: [[overview]] | [[log]] | [[hot]]
 
@@ -54,7 +54,7 @@ related:
 
 ## 학습 (Learning)
 
-<!-- 개발 노트, 강의, 튜토리얼 시사점 -->
+- [[esm-import-rule]] — ESM에서 import 경로에 `.js` 쓰는 규칙 (D 모드 첫 인제스트, 2026-04-26)
 
 ---
 
@@ -71,6 +71,8 @@ related:
 - [[confidence-map]] — 키포인트 위치를 가우시안 히트맵으로 예측
 - [[bipartite-matching]] — 파트 후보 쌍 최적 할당
 - [[multi-person-pose-estimation]] — 다중 인원 2D 포즈 문제 정의
+- [[esm-modules]] — ECMAScript Modules (자바스크립트 표준 모듈 시스템)
+- [[commonjs]] — Node.js 전통 모듈 시스템
 
 ---
 
@@ -91,6 +93,7 @@ related:
 - [[Prisma]] — TypeScript ORM
 - [[PostgreSQL]] — 관계형 DB
 - [[TypeScript]] — 정적 타입 JS
+- [[Node.js]] — JavaScript 런타임
 
 ### 데이터셋 / 모델 (Datasets / Models)
 - [[COCO-Dataset]] — 객체/키포인트 벤치마크
@@ -103,6 +106,7 @@ related:
 
 - [[cao-2017-openpose-paf-source]] — `.raw/papers/Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.pdf`
 - [[server-board-repo]] — `.raw/B-github/server-board/` (저장소 스냅샷, 2026-04-23)
+- [[esm-rule-notion-source]] — `.raw/D-personal/notion-study/ESM.pdf` (Notion 학습 노트, 2026-04-21)
 
 ---
 

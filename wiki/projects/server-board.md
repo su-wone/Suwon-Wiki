@@ -121,3 +121,7 @@ git log --oneline -50 > /Users/admin/wiki/.raw/B-github/server-board/git-log.txt
 - [[fullstack-dev]] — 도메인 허브
 - [[projects/_index]] — 전체 프로젝트 목록
 - [[server-board-repo]] — 소스 스냅샷 요약
+
+## 적용된 학습
+
+- [[esm-import-rule]] — ESM 모드 import 경로 `.js` 규칙 (이 프로젝트 전체에 적용)

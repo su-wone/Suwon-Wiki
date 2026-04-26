@@ -12,6 +12,7 @@ tags:
   - source
   - mode-b
   - repo-snapshot
+status: developing
 related:
   - "[[server-board]]"
 ---

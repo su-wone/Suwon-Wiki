@@ -10,6 +10,7 @@ tags:
   - framework
   - backend
   - typescript
+status: seed
 related:
   - "[[TypeScript]]"
   - "[[server-board]]"

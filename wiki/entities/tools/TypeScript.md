@@ -8,6 +8,7 @@ tags:
   - entity
   - tool
   - language
+status: seed
 related:
   - "[[NestJS]]"
   - "[[Prisma]]"

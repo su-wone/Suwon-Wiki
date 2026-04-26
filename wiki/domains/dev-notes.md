@@ -2,7 +2,7 @@
 type: domain
 title: "개발 노트"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - domain
   - learning
@@ -31,9 +31,9 @@ sources:
 - `.raw/articles/` — 블로그 포스트, 튜토리얼
 - `.raw/code/` — 실습 코드 스니펫
 
-## 학습 주제 (0개)
+## 학습 주제 (1개)
 
-<!-- 첫 학습 노트 인제스트 후 여기 나열 -->
+- [[esm-import-rule]] — ESM에서 import 경로에 `.js` 쓰는 규칙 ([[server-board]] 적용)
 
 ## 진행 중 코스 / 책
 
@@ -45,7 +45,7 @@ sources:
 
 ## 적용 사례
 
-<!-- 배운 것을 실제 프로젝트에 적용한 케이스. [[fullstack-dev]]의 프로젝트와 연결 -->
+- [[esm-import-rule]] → [[server-board]]: NestJS 11 + TS 5.7 ESM 모드에서 import 경로 `.js` 적용
 
 ## 크로스 도메인 연결
 

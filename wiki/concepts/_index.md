@@ -2,7 +2,7 @@
 type: meta
 title: "개념 인덱스"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - meta
   - index
@@ -25,7 +25,8 @@ related:
 
 ## 백엔드
 
-<!-- API 설계, 데이터 모델링, 캐싱 등 -->
+- [[esm-modules]] — ECMAScript Modules 표준
+- [[commonjs]] — Node.js 전통 모듈 시스템
 
 ## 데이터베이스
 

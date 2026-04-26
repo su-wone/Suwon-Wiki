@@ -2,7 +2,7 @@
 type: meta
 title: "작업 로그"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - meta
   - log
@@ -24,6 +24,30 @@ related:
 최근 항목 파싱: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-04-26] structure | wiki/entities/ 하위 폴더 분류 (entity_type별)
+- 동기: 13개 엔티티가 한 폴더에 평탄하게 — 사람/도구/데이터셋이 섞여 시각적 부하
+- 분류 규칙: `entity_type` → 하위 폴더
+  - `people/` (4): [[Zhe-Cao]] [[Tomas-Simon]] [[Shih-En-Wei]] [[Yaser-Sheikh]]
+  - `organizations/` (1): [[CMU-Robotics-Institute]]
+  - `tools/` (6): [[NestJS]] [[Node.js]] [[OpenPose]] [[PostgreSQL]] [[Prisma]] [[TypeScript]]
+  - `datasets/` (2): [[COCO-Dataset]] [[MPII-Dataset]]
+  - `models/` (1): [[VGG-19]]
+- basename은 고유하므로 위키링크 `[[Name]]` 형식 그대로 유효 (CLAUDE.md 규칙)
+- Updated: [[entities/_index]] (폴더 구조 + 배치 규칙 표 추가)
+- 검증: 모든 위키링크 재해석 정상 (46 페이지, broken=0)
+
+## [2026-04-26] lint | frontmatter `status` 누락 5건 보정
+- 대상: [[server-board-repo]] (developing), [[NestJS]] [[Prisma]] [[PostgreSQL]] [[TypeScript]] (seed)
+- CLAUDE.md 필수 frontmatter 규칙 충족 (type/status/created/updated/tags)
+
+## [2026-04-26] ingest | ESM 규칙 학습 노트 (D-personal 모드 첫 인제스트)
+- Source: `.raw/D-personal/notion-study/ESM.pdf` (Notion에서 export, 2026-04-21 작성)
+- Created: [[esm-import-rule]] (학습 노트), [[esm-modules]] [[commonjs]] (개념), [[Node.js]] (엔티티), [[esm-rule-notion-source]] (소스)
+- Updated: [[index]], [[hot]], [[learning/_index]], [[concepts/_index]], [[entities/_index]], [[sources/_index]], [[dev-notes]]
+- 도메인 연결: [[dev-notes]] ↔ [[fullstack-dev]] ([[server-board]] ESM 모드 적용)
+- 핵심 멘탈 모델: "실행될 때 존재할 파일을 적어라 — `.ts`는 컴파일 후 `.js`가 되니 import는 `.js`"
+- 비고: 게으른 확장 규칙상 D 모드용 새 폴더(goals/people/areas/resources)는 미생성 — 학습 노트는 기존 `wiki/learning/` 사용
 
 ## [2026-04-23] ingest | server-board (B-github 모드 첫 인제스트)
 - Source: `.raw/B-github/server-board/` (README, package.json, git-log, remotes, branches, tree)

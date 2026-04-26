@@ -2,7 +2,7 @@
 type: meta
 title: "소스 인덱스"
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-04-26
 tags:
   - meta
   - index
@@ -28,6 +28,10 @@ related:
 ## 트랜스크립트 (Transcripts)
 
 <!-- .raw/transcripts/ 출처 -->
+
+## 개인 노트 (Personal Notes)
+
+- [[esm-rule-notion-source]] — ESM 규칙 (Notion 학습 노트, 2026-04-21) — `.raw/D-personal/notion-study/ESM.pdf`
 
 ## 채용 공고 (Jobs)
 

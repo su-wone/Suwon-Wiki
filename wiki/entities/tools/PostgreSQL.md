@@ -8,6 +8,7 @@ tags:
   - entity
   - tool
   - database
+status: seed
 related:
   - "[[Prisma]]"
   - "[[server-board]]"
