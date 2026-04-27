@@ -60,8 +60,8 @@ sources:
 
 ## 이 도메인을 키우는 방법
 
-1. arXiv나 관심 논문 PDF를 `.raw/papers/`에 저장
-2. `ingest .raw/papers/<paper>.pdf`
+1. arXiv나 관심 논문 PDF를 `.raw/E-research/`에 저장
+2. `ingest .raw/E-research/<paper>.pdf`
 3. Claude가 논문 요약 페이지, 주요 저자(엔티티), 핵심 개념을 생성
 4. 여러 논문 사이 모순이나 공통점 발견 시 `wiki/comparisons/`에 정리
 
