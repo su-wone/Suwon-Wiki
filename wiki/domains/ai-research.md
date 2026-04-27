@@ -28,9 +28,7 @@ sources:
 
 ## 이 도메인의 소스 위치
 
-- `.raw/papers/` — PDF 논문
-- `.raw/articles/` — 저자 블로그 포스트, 서브스택
-- `.raw/transcripts/` — 저자 인터뷰, 컨퍼런스 강연
+- `.raw/E-research/` — PDF 논문, 외부 리서치 클립
 
 ## 논문 (1개)
 
