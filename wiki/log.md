@@ -25,6 +25,16 @@ related:
 
 ---
 
+## [2026-04-27] lint | 위키 헬스 체크 후속 수정 + stub 4개 생성
+- 보고서: [[lint-report-2026-04-27]]
+- Stale paths 4건 치환: `.raw/papers/` → `.raw/E-research/` ([[index]], [[ai-research]], [[papers/_index]])
+- Stale claims: [[overview]] 통계 갱신 (소스 0→3, 페이지 4→55)
+- Dead links 2건 수정: [[dev-notes]]:63, [[위키-능동-사용법]]:57
+- Stub 4개 생성: [[Jira]] [[Jest]] [[tsx]] (entities/tools), [[ADR]] (concepts)
+- Cross-link: [[server-board]] 본문에서 Jira/Jest/tsx 위키링크화
+- Updated: [[entities/_index]], [[concepts/_index]], [[decisions/_index]], [[index]]
+- 추가 산출물: [[dashboard]] (Dataview), `wiki/meta/overview.canvas` (도메인 맵)
+
 ## [2026-04-27] save | server-board 백엔드 정독 패턴
 - Type: synthesis (question)
 - Location: wiki/questions/server-board 백엔드 정독 패턴.md
