@@ -2,7 +2,7 @@
 type: meta
 title: "위키 인덱스"
 created: 2026-04-23
-updated: 2026-04-26
+updated: 2026-04-27
 tags:
   - meta
   - index
@@ -15,7 +15,7 @@ related:
 
 # 위키 인덱스
 
-마지막 업데이트: 2026-04-26 | 전체 페이지: 30 | 인제스트된 소스: 3
+마지막 업데이트: 2026-04-27 | 전체 페이지: 32 | 인제스트된 소스: 3
 
 내비게이션: [[overview]] | [[log]] | [[hot]]
 
@@ -66,6 +66,7 @@ related:
 
 ## 개념 (Concepts)
 
+- [[Prisma Client 재생성 누락 시 P2022]] — 수동 마이그레이션 후 시드 실패의 진짜 원인과 처방
 - [[part-affinity-fields]] — 림을 방향 있는 2D 벡터 필드로 표현 (PAF)
 - [[bottom-up-pose-estimation]] — 파트 먼저 검출, 그 다음 연결
 - [[confidence-map]] — 키포인트 위치를 가우시안 히트맵으로 예측
@@ -112,6 +113,7 @@ related:
 
 ## 질문 (Questions)
 
+- [[Board 풀스택 학습 가이드]] — server-board(NestJS)와 board(Next.js 16) 두 저장소를 폴더 순서대로 읽고 핵심 문법을 익히는 가이드
 - [[위키-능동-사용법]] — 입력→트리거→회수 3박자, 4가지 능동 루틴
 
 ---

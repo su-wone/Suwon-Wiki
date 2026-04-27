@@ -2,7 +2,7 @@
 type: meta
 title: "작업 로그"
 created: 2026-04-23
-updated: 2026-04-26
+updated: 2026-04-27
 tags:
   - meta
   - log
@@ -24,6 +24,18 @@ related:
 최근 항목 파싱: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-04-27] save | Board 풀스택 학습 가이드
+- Type: synthesis (question)
+- Location: wiki/questions/Board 풀스택 학습 가이드.md
+- From: 사용자 질문 "각 프로젝트의 구조와 어떻게 연결되는지, 어떤 순서대로 폴더를 보면서 익혀야 하고, 각 코드의 기능과 문법을 알려주세요" — server-board(NestJS+Prisma) ↔ board(Next.js 16+React 19) 통합 학습 흐름 정리
+- 핵심: 연결 한 점은 `client.ts BASE` ↔ `main.ts enableCors`, 타입 동기화는 수동(`cardSummarySchema` ↔ `Ticket`). 백엔드는 schema → main → modules → workflows → sprints → cards 순, 프론트는 types → api → app/page → AppShell → 합성 → backlog 순.
+- 새 페이지: [[Board 풀스택 학습 가이드]] — 첫 프론트엔드(Next.js/React) 관련 페이지
+
+## [2026-04-27] save | Prisma Client 재생성 누락 시 P2022
+- Type: concept
+- Location: wiki/concepts/Prisma Client 재생성 누락 시 P2022.md
+- From: [[server-board]]에서 Epic 모델 제거 후 `prisma db seed` 실패 트러블슈팅 — 원인이 마이그레이션 적용 여부가 아니라 `generated/prisma/` 미재생성이었음. 다른 ORM에서도 반복되는 패턴이라 개념 페이지로 정착.
 
 ## [2026-04-26] structure | wiki/entities/ 하위 폴더 분류 (entity_type별)
 - 동기: 13개 엔티티가 한 폴더에 평탄하게 — 사람/도구/데이터셋이 섞여 시각적 부하
