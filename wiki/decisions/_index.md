@@ -17,7 +17,7 @@ related:
 
 # 기술 결정 인덱스
 
-Architecture Decision Records (ADR). 왜 이 기술을 선택했고 무엇을 거절했는지 기록합니다.
+[[ADR]] (Architecture Decision Records). 왜 이 기술을 선택했고 무엇을 거절했는지 기록합니다.
 
 ## 활성 결정 (Active)
 
