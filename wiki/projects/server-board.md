@@ -31,7 +31,7 @@ sources:
 
 ## 한 줄
 
-Jira 스타일 보드 서비스의 백엔드. Sprints / Workflows / Cards / Epics를 관리하는 REST API.
+[[Jira]] 스타일 보드 서비스의 백엔드. Sprints / Workflows / Cards / Epics를 관리하는 REST API.
 
 ## 목적
 
