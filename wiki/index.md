@@ -95,6 +95,9 @@ related:
 - [[PostgreSQL]] — 관계형 DB
 - [[TypeScript]] — 정적 타입 JS
 - [[Node.js]] — JavaScript 런타임
+- [[Jest]] — JS/TS 테스트 프레임워크
+- [[tsx]] — TypeScript 직접 실행
+- [[Jira]] — Atlassian 이슈 트래커 (server-board 모델 차용)
 
 ### 데이터셋 / 모델 (Datasets / Models)
 - [[COCO-Dataset]] — 객체/키포인트 벤치마크
