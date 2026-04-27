@@ -51,7 +51,7 @@ Jira 스타일 보드 서비스의 백엔드. Sprints / Workflows / Cards / Epic
 | 문서    | `@nestjs/swagger`                      | ^11.3.0      |
 | 스토리지  | `@aws-sdk/client-s3`                   | ^3.1019      |
 | 검증    | `class-validator`, `class-transformer` | —            |
-| 테스트   | Jest                                   | ^30          |
+| 테스트   | [[Jest]]                               | ^30          |
 
 ## 구조
 
