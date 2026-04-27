@@ -65,6 +65,13 @@ wiki/entities/
 - [[Prisma]] — TypeScript ORM (server-board)
 - [[OpenPose]] — 실시간 멀티 퍼슨 키포인트 라이브러리
 
+### 테스트 / 빌드
+- [[Jest]] — JS/TS 테스트 프레임워크 (server-board)
+- [[tsx]] — TypeScript 직접 실행 (server-board seed)
+
+### 이슈 트래커 / PM
+- [[Jira]] — Atlassian 이슈 트래커 (server-board 모델 차용)
+
 ### 언어
 - [[TypeScript]] — server-board 메인 언어
 
