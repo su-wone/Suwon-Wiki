@@ -74,6 +74,7 @@ related:
 - [[multi-person-pose-estimation]] — 다중 인원 2D 포즈 문제 정의
 - [[esm-modules]] — ECMAScript Modules (자바스크립트 표준 모듈 시스템)
 - [[commonjs]] — Node.js 전통 모듈 시스템
+- [[ADR]] — Architecture Decision Record 형식
 
 ---
 
