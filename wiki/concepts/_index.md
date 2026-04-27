@@ -46,7 +46,7 @@ related:
 
 ## 소프트웨어 엔지니어링
 
-<!-- 디자인 패턴, 테스트 전략, 리팩토링 -->
+- [[ADR]] — Architecture Decision Record 형식 (Michael Nygard)
 
 ## 커리어 / 소프트 스킬
 
