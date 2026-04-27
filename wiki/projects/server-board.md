@@ -36,7 +36,7 @@ sources:
 ## 목적
 
 - 스프린트 단위로 카드를 워크플로 컬럼에 배치하고 이동시키는 보드 시스템
-- 이슈 키 prefix: `VEASLY-###` (Jira 연동을 염두)
+- 이슈 키 prefix: `VEASLY-###` ([[Jira]] 연동을 염두)
 - 프론트엔드 통합 단계 진행 중 (현재 브랜치: `feat/frontend-integration`)
 
 ## 스택
