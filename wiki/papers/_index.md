@@ -54,7 +54,7 @@ AI/ML 논문 요약 페이지.
 ## 논문 페이지 만들기
 
 ```
-ingest .raw/papers/<paper>.pdf
+ingest .raw/E-research/<paper>.pdf
 ```
 
 ### 권장 frontmatter
