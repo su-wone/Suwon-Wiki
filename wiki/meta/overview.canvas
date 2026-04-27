@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "type": "file",
+      "file": "wiki/overview.md",
+      "x": -160,
+      "y": -90,
+      "width": 320,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "index",
+      "type": "file",
+      "file": "wiki/index.md",
+      "x": -560,
+      "y": -90,
+      "width": 280,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "hot",
+      "type": "file",
+      "file": "wiki/hot.md",
+      "x": 240,
+      "y": -90,
+      "width": 280,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "fullstack-dev",
+      "type": "file",
+      "file": "wiki/domains/fullstack-dev.md",
+      "x": -480,
+      "y": 240,
+      "width": 320,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "ai-research",
+      "type": "file",
+      "file": "wiki/domains/ai-research.md",
+      "x": -120,
+      "y": 240,
+      "width": 320,
+      "height": 200,
+      "color": "2"
+    },
+    {
+      "id": "dev-notes",
+      "type": "file",
+      "file": "wiki/domains/dev-notes.md",
+      "x": 240,
+      "y": 240,
+      "width": 320,
+      "height": 200,
+      "color": "3"
+    },
+    {
+      "id": "job-market",
+      "type": "file",
+      "file": "wiki/domains/job-market.md",
+      "x": 600,
+      "y": 240,
+      "width": 320,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "server-board",
+      "type": "file",
+      "file": "wiki/projects/server-board.md",
+      "x": -640,
+      "y": 540,
+      "width": 280,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "cao-2017",
+      "type": "file",
+      "file": "wiki/papers/cao-2017-openpose-paf.md",
+      "x": -240,
+      "y": 540,
+      "width": 280,
+      "height": 160,
+      "color": "2"
+    },
+    {
+      "id": "esm-import-rule",
+      "type": "file",
+      "file": "wiki/learning/esm-import-rule.md",
+      "x": 160,
+      "y": 540,
+      "width": 280,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "wiki-manual",
+      "type": "file",
+      "file": "wiki/meta/wiki-운영-매뉴얼.md",
+      "x": 600,
+      "y": -390,
+      "width": 320,
+      "height": 160,
+      "color": "1"
+    },
+    {
+      "id": "lint-report",
+      "type": "file",
+      "file": "wiki/meta/lint-report-2026-04-27.md",
+      "x": -560,
+      "y": -390,
+      "width": 320,
+      "height": 160,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "overview", "fromSide": "left", "toNode": "index", "toSide": "right"},
+    {"id": "e2", "fromNode": "overview", "fromSide": "right", "toNode": "hot", "toSide": "left"},
+    {"id": "e3", "fromNode": "overview", "fromSide": "bottom", "toNode": "fullstack-dev", "toSide": "top"},
+    {"id": "e4", "fromNode": "overview", "fromSide": "bottom", "toNode": "ai-research", "toSide": "top"},
+    {"id": "e5", "fromNode": "overview", "fromSide": "bottom", "toNode": "dev-notes", "toSide": "top"},
+    {"id": "e6", "fromNode": "overview", "fromSide": "bottom", "toNode": "job-market", "toSide": "top"},
+    {"id": "e7", "fromNode": "fullstack-dev", "fromSide": "right", "toNode": "dev-notes", "toSide": "left", "label": "ESM 적용"},
+    {"id": "e8", "fromNode": "ai-research", "fromSide": "left", "toNode": "fullstack-dev", "toSide": "right", "label": "기법 → 프로젝트"},
+    {"id": "e9", "fromNode": "fullstack-dev", "fromSide": "bottom", "toNode": "server-board", "toSide": "top"},
+    {"id": "e10", "fromNode": "ai-research", "fromSide": "bottom", "toNode": "cao-2017", "toSide": "top"},
+    {"id": "e11", "fromNode": "dev-notes", "fromSide": "bottom", "toNode": "esm-import-rule", "toSide": "top"},
+    {"id": "e12", "fromNode": "server-board", "fromSide": "right", "toNode": "esm-import-rule", "toSide": "left", "label": "적용"},
+    {"id": "e13", "fromNode": "index", "fromSide": "top", "toNode": "lint-report", "toSide": "bottom"},
+    {"id": "e14", "fromNode": "hot", "fromSide": "top", "toNode": "wiki-manual", "toSide": "bottom"}
+  ]
+}
