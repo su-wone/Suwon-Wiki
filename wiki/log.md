@@ -25,6 +25,12 @@ related:
 
 ---
 
+## [2026-04-27] save | server-board 백엔드 정독 패턴
+- Type: synthesis (question)
+- Location: wiki/questions/server-board 백엔드 정독 패턴.md
+- From: Step 1-4 정독 세션 (schema.prisma → main.ts → workflows → sprints) 후속. [[Board 풀스택 학습 가이드]]가 학습 순서라면 이 페이지는 그 과정에서 드러난 비명시적 패턴 9가지 reference.
+- 핵심 인사이트: id 흩어짐과 order 컬럼 분리, ValidationPipe 3옵션의 의존성 (whitelist + forbidNonWhitelisted), $transaction 인터랙티브 vs 배열 형태, 소프트 삭제 + 수동 cascade 패턴.
+
 ## [2026-04-27] save | Board 풀스택 학습 가이드
 - Type: synthesis (question)
 - Location: wiki/questions/Board 풀스택 학습 가이드.md

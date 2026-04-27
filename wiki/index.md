@@ -15,7 +15,7 @@ related:
 
 # 위키 인덱스
 
-마지막 업데이트: 2026-04-27 | 전체 페이지: 32 | 인제스트된 소스: 3
+마지막 업데이트: 2026-04-27 | 전체 페이지: 33 | 인제스트된 소스: 3
 
 내비게이션: [[overview]] | [[log]] | [[hot]]
 
@@ -113,6 +113,7 @@ related:
 
 ## 질문 (Questions)
 
+- [[server-board 백엔드 정독 패턴]] — schema → main → workflows → sprints 4단계 정독에서 드러난 비명시적 패턴 9가지 (id vs order, ValidationPipe 의존성, $transaction 두 형태 등)
 - [[Board 풀스택 학습 가이드]] — server-board(NestJS)와 board(Next.js 16) 두 저장소를 폴더 순서대로 읽고 핵심 문법을 익히는 가이드
 - [[위키-능동-사용법]] — 입력→트리거→회수 3박자, 4가지 능동 루틴
 

@@ -18,6 +18,7 @@ related:
 내비게이션: [[index]] | [[log]] | [[overview]]
 
 ## 마지막 업데이트
+2026-04-27: **[[server-board 백엔드 정독 패턴]]** 저장 — `/save` synthesis. [[Board 풀스택 학습 가이드]]가 학습 순서라면 이 페이지는 Step 1-4 (schema → main → workflows → sprints) 정독에서 드러난 비명시적 패턴 9가지의 reference. 가장 큰 인사이트는 **id-vs-order 분리** (Workflow id가 5,9,11... 흩어진 이유는 시드의 upsert+deleteMany 정책 + 시퀀스 단방향성, 표시 순서는 별도 `order` 컬럼이 책임). ValidationPipe 3옵션의 의존성, `$transaction` 인터랙티브/배열 두 형태, 소프트 삭제 + 수동 cascade 패턴까지 정리.
 2026-04-27: **[[Board 풀스택 학습 가이드]]** 저장 — `/save` synthesis. server-board(NestJS+Prisma) ↔ board(Next.js 16+React 19) 두 저장소를 처음 읽는 사람을 위한 통합 가이드. 연결 한 점은 `client.ts BASE` ↔ `main.ts enableCors`, 타입 동기화 수동(`cardSummarySchema` ↔ `Ticket`). 백엔드는 schema → main → modules → workflows → sprints → cards, 프론트는 types → api → page → AppShell → 합성 → backlog 순. 첫 프론트엔드 관련 페이지.
 2026-04-27: **[[Prisma Client 재생성 누락 시 P2022]]** 저장 — `/save` concept. [[server-board]]에서 Epic 모델 제거 후 `prisma db seed`가 `P2022 ColumnNotFound`로 실패. `prisma migrate status`는 "up to date"였지만 `generated/prisma/`가 옛 스키마 기준이었음. 해결: `npx prisma generate`. 다른 ORM에도 적용되는 패턴이라 개념 페이지화.
 2026-04-26: **[[esm-import-rule]]** 인제스트 — D-personal 모드 첫 사용. Notion에서 export한 ESM 학습 노트. [[esm-modules]] [[commonjs]] 개념 + [[Node.js]] 엔티티 생성. [[server-board]]와 직결.
@@ -62,8 +63,8 @@ related:
 
 ### 1. 풀스택 개발 ([[fullstack-dev]])
 - 프로젝트 1개: [[server-board]]
-- synthesis 1개: [[Board 풀스택 학습 가이드]] (백엔드+프론트 학습 흐름)
-- 다음 후보: 프론트 저장소 `board` 의 별도 프로젝트 페이지 신설, ADR 정리(`key` 컬럼 제거 / Memo 제거 / Epic 모델 제거), Prisma 스키마 진화 로그
+- synthesis 2개: [[Board 풀스택 학습 가이드]] (학습 흐름), [[server-board 백엔드 정독 패턴]] (비명시적 패턴 9가지)
+- 다음 후보: 프론트 저장소 `board` 의 별도 프로젝트 페이지 신설, ADR 정리(`key` 컬럼 제거 / Memo 제거 / Epic 모델 제거), Prisma 스키마 진화 로그, `cards/` 정독 후속 페이지
 
 ### 2. AI 논문 리서치 ([[ai-research]])
 - 논문 1개: [[cao-2017-openpose-paf]]
