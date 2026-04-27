@@ -68,7 +68,7 @@ src/
 prisma/
   schema.prisma  — Users, Sprints, Workflows, Cards, Epics, Labels, Memos
   migrations/    — 6개 마이그레이션 (2026-03-25 ~ 2026-04-22)
-  seed.ts        — 워크플로/에픽 시드 (tsx 실행)
+  seed.ts        — 워크플로/에픽 시드 ([[tsx]] 실행)
 ```
 
 ## 도메인 모델 (Prisma)
