@@ -60,7 +60,7 @@ sources:
 1. 유튜브 트랜스크립트를 `.raw/transcripts/<주제>.md`에 저장
 2. `ingest .raw/transcripts/<주제>.md`
 3. Claude가 핵심 개념 페이지, 강사(엔티티), 적용 아이디어를 정리
-4. 프로젝트에 실제 적용했다면 프로젝트 페이지에 "Applied concepts: [[개념]]" 섹션 추가
+4. 프로젝트에 실제 적용했다면 프로젝트 페이지에 `Applied concepts: [[개념명]]` 섹션 추가
 
 ### 권장 frontmatter 필드 (학습 노트용)
 
